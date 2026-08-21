@@ -1,0 +1,16 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+cell-b71-ul,663.000,698.000,600 MHz Band n71 Uplink,Cellular,T-Mobile 600 MHz low-band 5G/LTE uplink.,LTE/NR,cellular;5g,47 CFR Part 27
+cell-b71-dl,617.000,652.000,600 MHz Band n71 Downlink,Cellular,T-Mobile 600 MHz low-band 5G/LTE downlink.,LTE/NR,cellular;5g,47 CFR Part 27
+cell-b13-dl,746.000,756.000,700 MHz Band 13 Downlink,Cellular,Verizon upper 700 MHz C block downlink.,LTE,cellular;lte,47 CFR Part 27
+cell-b12-dl,729.000,746.000,700 MHz Band 12/17 Downlink,Cellular,AT&T and others lower 700 MHz downlink.,LTE,cellular;lte,47 CFR Part 27
+cell-b5-ul,824.000,849.000,Cellular 850 Band 5 Uplink,Cellular,Original US cellular band; handset transmit.,LTE/NR,cellular;lte,47 CFR Part 22 Subpart H
+cell-b5-dl,869.000,894.000,Cellular 850 Band 5 Downlink,Cellular,Original US cellular band; base transmit.,LTE/NR,cellular;lte,47 CFR Part 22 Subpart H
+cell-aws-ul,1710.000,1780.000,AWS Band 66 Uplink,Cellular,AWS-1 and AWS-3 handset transmit.,LTE/NR,cellular;lte;aws,47 CFR Part 27
+cell-pcs-ul,1850.000,1915.000,PCS Band 2/25 Uplink,Cellular,Personal Communications Service handset transmit.,LTE/NR,cellular;lte;pcs,47 CFR Part 24
+cell-pcs-dl,1930.000,1995.000,PCS Band 2/25 Downlink,Cellular,Personal Communications Service base transmit.,LTE/NR,cellular;lte;pcs,47 CFR Part 24
+cell-aws-dl,2110.000,2200.000,AWS Band 66 Downlink,Cellular,AWS-1 and AWS-3 base transmit.,LTE/NR,cellular;lte;aws,47 CFR Part 27
+cell-b41,2496.000,2690.000,2.5 GHz Band 41/n41,Cellular,BRS/EBS spectrum; T-Mobile mid-band 5G TDD.,LTE/NR,cellular;5g;tdd,47 CFR Part 27
+cell-cbrs,3550.000,3700.000,CBRS Band 48/n48,Cellular,Citizens Broadband Radio Service; three-tier SAS-coordinated sharing.,LTE/NR,cellular;cbrs;shared,47 CFR Part 96
+cell-cband,3700.000,3980.000,C-Band n77,Cellular,Mid-band 5G cleared from FSS downlink; AT&T and Verizon.,NR,cellular;5g,47 CFR Part 27
+cell-n261,27500.000,28350.000,28 GHz Band n261,Cellular,Millimetre-wave 5G.,NR,cellular;5g;mmwave,47 CFR Part 30
+cell-n260,37000.000,40000.000,39 GHz Band n260,Cellular,Millimetre-wave 5G.,NR,cellular;5g;mmwave,47 CFR Part 30

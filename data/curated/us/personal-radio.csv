@@ -1,0 +1,33 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+frs-gmrs-01,462.55625,462.56875,FRS/GMRS Channel 1,Personal Radio,"FRS and GMRS shared interstitial channel; FRS 2 W, GMRS 5 W.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-02,462.58125,462.59375,FRS/GMRS Channel 2,Personal Radio,"FRS and GMRS shared interstitial channel; FRS 2 W, GMRS 5 W.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-03,462.60625,462.61875,FRS/GMRS Channel 3,Personal Radio,"FRS and GMRS shared interstitial channel; FRS 2 W, GMRS 5 W.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-04,462.63125,462.64375,FRS/GMRS Channel 4,Personal Radio,"FRS and GMRS shared interstitial channel; FRS 2 W, GMRS 5 W.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-05,462.65625,462.66875,FRS/GMRS Channel 5,Personal Radio,"FRS and GMRS shared interstitial channel; FRS 2 W, GMRS 5 W.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-06,462.68125,462.69375,FRS/GMRS Channel 6,Personal Radio,"FRS and GMRS shared interstitial channel; FRS 2 W, GMRS 5 W.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-07,462.70625,462.71875,FRS/GMRS Channel 7,Personal Radio,"FRS and GMRS shared interstitial channel; FRS 2 W, GMRS 5 W.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-08,467.55625,467.56875,FRS/GMRS Channel 8,Personal Radio,"FRS only, 0.5 W limit; GMRS repeater inputs are not on these.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-09,467.58125,467.59375,FRS/GMRS Channel 9,Personal Radio,"FRS only, 0.5 W limit; GMRS repeater inputs are not on these.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-10,467.60625,467.61875,FRS/GMRS Channel 10,Personal Radio,"FRS only, 0.5 W limit; GMRS repeater inputs are not on these.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-11,467.63125,467.64375,FRS/GMRS Channel 11,Personal Radio,"FRS only, 0.5 W limit; GMRS repeater inputs are not on these.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-12,467.65625,467.66875,FRS/GMRS Channel 12,Personal Radio,"FRS only, 0.5 W limit; GMRS repeater inputs are not on these.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-13,467.68125,467.69375,FRS/GMRS Channel 13,Personal Radio,"FRS only, 0.5 W limit; GMRS repeater inputs are not on these.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-14,467.70625,467.71875,FRS/GMRS Channel 14,Personal Radio,"FRS only, 0.5 W limit; GMRS repeater inputs are not on these.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-15,462.5400,462.5600,FRS/GMRS Channel 15,Personal Radio,"GMRS main channel (FRS 2 W); GMRS repeater output, licence required.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-16,462.5650,462.5850,FRS/GMRS Channel 16,Personal Radio,"GMRS main channel (FRS 2 W); GMRS repeater output, licence required.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-17,462.5900,462.6100,FRS/GMRS Channel 17,Personal Radio,"GMRS main channel (FRS 2 W); GMRS repeater output, licence required.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-18,462.6150,462.6350,FRS/GMRS Channel 18,Personal Radio,"GMRS main channel (FRS 2 W); GMRS repeater output, licence required.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-19,462.6400,462.6600,FRS/GMRS Channel 19,Personal Radio,"GMRS main channel (FRS 2 W); GMRS repeater output, licence required.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-20,462.6650,462.6850,FRS/GMRS Channel 20,Personal Radio,"GMRS main channel (FRS 2 W); GMRS repeater output, licence required.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-21,462.6900,462.7100,FRS/GMRS Channel 21,Personal Radio,"GMRS main channel (FRS 2 W); GMRS repeater output, licence required.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+frs-gmrs-22,462.7150,462.7350,FRS/GMRS Channel 22,Personal Radio,"GMRS main channel (FRS 2 W); GMRS repeater output, licence required.",NFM,frs;gmrs;personal,47 CFR Part 95 Subparts B/E
+murs-1,151.814375,151.825625,MURS Channel 1,Personal Radio,"Multi-Use Radio Service; licence-free, 2 W limit.",NFM,murs;personal,47 CFR Part 95 Subpart J
+murs-2,151.874375,151.885625,MURS Channel 2,Personal Radio,"Multi-Use Radio Service; licence-free, 2 W limit.",NFM,murs;personal,47 CFR Part 95 Subpart J
+murs-3,151.934375,151.945625,MURS Channel 3,Personal Radio,"Multi-Use Radio Service; licence-free, 2 W limit.",NFM,murs;personal,47 CFR Part 95 Subpart J
+murs-4,154.560,154.580,MURS Channel 4,Personal Radio,"Multi-Use Radio Service; licence-free, 2 W limit.",NFM,murs;personal,47 CFR Part 95 Subpart J
+murs-5,154.590,154.610,MURS Channel 5,Personal Radio,"Multi-Use Radio Service; licence-free, 2 W limit.",NFM,murs;personal,47 CFR Part 95 Subpart J
+cb-9,27.060,27.070,CB Channel 9,Personal Radio,Emergency and traveller assistance,AM/SSB,cb;personal;hf,47 CFR Part 95 Subpart D
+cb-19,27.180,27.190,CB Channel 19,Personal Radio,Highway / trucker calling channel,AM/SSB,cb;personal;hf,47 CFR Part 95 Subpart D
+cb-1,26.960,26.970,CB Channel 1,Personal Radio,Lowest CB channel,AM/SSB,cb;personal;hf,47 CFR Part 95 Subpart D
+cb-40,27.400,27.410,CB Channel 40,Personal Radio,Highest CB channel,AM/SSB,cb;personal;hf,47 CFR Part 95 Subpart D
+cb-band,26.965,27.405,Citizens Band (CB),Personal Radio,"40 channels, 4 W AM / 12 W PEP SSB, licence-free.",AM/SSB,cb;personal;hf,47 CFR Part 95 Subpart D

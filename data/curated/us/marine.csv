@@ -1,0 +1,44 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+marine-vhf-01a,156.0375,156.0625,Marine VHF Channel 01A,Marine,Port operations / commercial (US),NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-05a,156.2375,156.2625,Marine VHF Channel 05A,Marine,Port operations; VTS in some ports,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-06,156.2875,156.3125,Marine VHF Channel 06,Marine,Intership safety; mandatory on all sets,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-07a,156.3375,156.3625,Marine VHF Channel 07A,Marine,Commercial,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-08,156.3875,156.4125,Marine VHF Channel 08,Marine,"Commercial, intership only",NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-09,156.4375,156.4625,Marine VHF Channel 09,Marine,Boater calling; recreational hailing,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-10,156.4875,156.5125,Marine VHF Channel 10,Marine,Commercial,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-11,156.5375,156.5625,Marine VHF Channel 11,Marine,Commercial; VTS in some ports,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-12,156.5875,156.6125,Marine VHF Channel 12,Marine,Port operations; VTS in some ports,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-13,156.6375,156.6625,Marine VHF Channel 13,Marine,Bridge-to-bridge navigation safety; 1 W limit,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-14,156.6875,156.7125,Marine VHF Channel 14,Marine,Port operations; VTS in some ports,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-15,156.7375,156.7625,Marine VHF Channel 15,Marine,Environmental; receive only,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-16,156.7875,156.8125,Marine VHF Channel 16,Marine,"International distress, safety and calling",NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-17,156.8375,156.8625,Marine VHF Channel 17,Marine,State control,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-18a,156.8875,156.9125,Marine VHF Channel 18A,Marine,Commercial,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-19a,156.9375,156.9625,Marine VHF Channel 19A,Marine,Commercial,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-20,156.9875,157.0125,Marine VHF Channel 20,Marine,Port operations (duplex),NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-21a,157.0375,157.0625,Marine VHF Channel 21A,Marine,US Coast Guard only,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-22a,157.0875,157.1125,Marine VHF Channel 22A,Marine,Coast Guard liaison and maritime safety broadcasts,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-23a,157.1375,157.1625,Marine VHF Channel 23A,Marine,US Coast Guard only,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-63a,156.1625,156.1875,Marine VHF Channel 63A,Marine,Port operations / commercial,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-65a,156.2625,156.2875,Marine VHF Channel 65A,Marine,Port operations,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-66a,156.3125,156.3375,Marine VHF Channel 66A,Marine,Port operations,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-67,156.3625,156.3875,Marine VHF Channel 67,Marine,Commercial; bridge-to-bridge in lower Mississippi,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-68,156.4125,156.4375,Marine VHF Channel 68,Marine,Non-commercial working (recreational),NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-69,156.4625,156.4875,Marine VHF Channel 69,Marine,Non-commercial working (recreational),NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-70,156.5125,156.5375,Marine VHF Channel 70,Marine,Digital selective calling (DSC) distress; no voice,DSC,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-71,156.5625,156.5875,Marine VHF Channel 71,Marine,Non-commercial working (recreational),NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-72,156.6125,156.6375,Marine VHF Channel 72,Marine,Non-commercial intership,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-73,156.6625,156.6875,Marine VHF Channel 73,Marine,Port operations,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-74,156.7125,156.7375,Marine VHF Channel 74,Marine,Port operations,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-77,156.8625,156.8875,Marine VHF Channel 77,Marine,"Port operations, intership only",NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-78a,156.9125,156.9375,Marine VHF Channel 78A,Marine,Non-commercial working,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-79a,156.9625,156.9875,Marine VHF Channel 79A,Marine,Commercial; non-commercial on Great Lakes,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-80a,157.0125,157.0375,Marine VHF Channel 80A,Marine,Commercial; non-commercial on Great Lakes,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-81a,157.0625,157.0875,Marine VHF Channel 81A,Marine,US government / environmental protection,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-82a,157.1125,157.1375,Marine VHF Channel 82A,Marine,US government,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-83a,157.1625,157.1875,Marine VHF Channel 83A,Marine,US Coast Guard only,NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-vhf-88a,157.4125,157.4375,Marine VHF Channel 88A,Marine,"Commercial, intership only",NFM,marine;vhf,47 CFR 80.371 / USCG
+marine-ais-1,161.9625,161.9875,AIS 1 (Channel 87B),Marine,Automatic Identification System channel A; ship position reporting.,GMSK,marine;ais;data,47 CFR 80.393
+marine-ais-2,162.0125,162.0375,AIS 2 (Channel 88B),Marine,Automatic Identification System channel B; ship position reporting.,GMSK,marine;ais;data,47 CFR 80.393
+marine-2182,2.179,2.185,2182 kHz Distress,Marine,International MF radiotelephone distress and calling frequency.,USB,marine;distress;hf,47 CFR 80.313
+marine-dsc-2187,2.1845,2.1905,2187.5 kHz DSC Distress,Marine,MF digital selective calling distress and safety.,DSC,marine;distress;hf,ITU-R M.541

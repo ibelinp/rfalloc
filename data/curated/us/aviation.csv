@@ -1,0 +1,26 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+nav-ndb,0.190,0.535,Non-Directional Beacon (NDB),Aviation,Low-frequency aeronautical radionavigation beacons; Morse ident.,A2A,aviation;navigation,47 CFR Part 87
+nav-marker-beacon,74.950,75.050,Marker Beacon,Aviation,75 MHz ILS marker beacons: outer/middle/inner.,AM,aviation;navigation,47 CFR Part 87
+nav-vor-ils-band,108.000,117.950,VOR / ILS Localizer,Aviation,108.000-111.975 shared ILS localizer and VOR; 112.000-117.950 VOR only.,AM,aviation;navigation,47 CFR Part 87
+nav-ils-localizer,108.100,111.950,ILS Localizer,Aviation,Instrument Landing System localizer; odd-tenth channels.,AM,aviation;navigation,47 CFR Part 87
+air-vhf-band,118.000,136.990,VHF Air Band,Aviation,Aeronautical mobile (R) voice; 25 kHz and 8.33 kHz channels; AM.,AM,aviation;voice,47 CFR Part 87
+air-emergency-121500,121.4875,121.5125,Aeronautical Emergency (Guard),Aviation,International aeronautical emergency and distress frequency.,AM,aviation;distress;guard,47 CFR 87.187
+air-unicom-122800,122.7875,122.8125,UNICOM 122.800,Aviation,Common CTAF/UNICOM at non-towered airports.,AM,aviation;ctaf,47 CFR Part 87
+air-multicom-122900,122.8875,122.9125,MULTICOM 122.900,Aviation,Air-to-air and activities not associated with an airport.,AM,aviation;ctaf,47 CFR 87.187
+air-air-122750,122.7375,122.7625,Air-to-Air 122.750,Aviation,Private fixed-wing air-to-air communication.,AM,aviation;air-to-air,47 CFR 87.187
+air-air-123450,123.4375,123.4625,Air-to-Air 123.450,Aviation,Commonly used informally for air-to-air; not an assigned air-to-air channel.,AM,aviation;air-to-air,47 CFR Part 87
+acars-131550,131.5375,131.5625,ACARS Primary (131.550),Aviation,Aircraft Communications Addressing and Reporting System; primary US channel.,MSK,aviation;data;acars,ARINC 618
+acars-130025,130.0125,130.0375,ACARS 130.025,Aviation,ACARS secondary US channel.,MSK,aviation;data;acars,ARINC 618
+acars-129125,129.1125,129.1375,ACARS 129.125,Aviation,ACARS secondary US channel.,MSK,aviation;data;acars,ARINC 618
+air-hf-band,2.850,22.000,HF Aeronautical,Aviation,Long-haul oceanic and remote HF air-ground voice; USB.,USB,aviation;hf;voice,47 CFR Part 87
+air-uhf-military,225.000,399.900,UHF Military Air Band,Aviation,Military aeronautical mobile voice; 25 kHz AM channels.,AM,aviation;military,NTIA Redbook
+air-guard-243000,242.9875,243.0125,Military Emergency (UHF Guard),Aviation,Military aeronautical emergency and distress frequency.,AM,aviation;distress;guard,NTIA Redbook
+nav-ils-glideslope,328.600,335.400,ILS Glide Slope,Aviation,Instrument Landing System glide slope; paired with localizer.,AM,aviation;navigation,47 CFR Part 87
+uat-978,977.500,978.500,UAT / ADS-B 978,Aviation,Universal Access Transceiver: ADS-B out plus FIS-B and TIS-B uplink.,UAT,aviation;adsb;data,47 CFR Part 87 / RTCA DO-282
+ssr-1030,1029.500,1030.500,SSR Interrogation (1030),Aviation,Secondary surveillance radar and TCAS interrogation uplink.,PULSE,aviation;radar,ICAO Annex 10
+adsb-1090,1089.000,1091.000,ADS-B / Mode S (1090),Aviation,1090 MHz Extended Squitter: transponder replies and ADS-B position reports.,PPM,aviation;adsb;radar,ICAO Annex 10
+dme-band,960.000,1215.000,DME / TACAN,Aviation,Distance Measuring Equipment and TACAN channel pairs.,PULSE,aviation;navigation,47 CFR Part 87
+radar-altimeter,4200.000,4400.000,Radar Altimeter,Aviation,Aircraft radio altimeters; FMCW.,FMCW,aviation;radar,47 CFR Part 87
+wx-radar-airborne,9300.000,9500.000,Airborne Weather Radar,Aviation,X-band airborne weather and ground-mapping radar.,PULSE,aviation;radar,47 CFR Part 87
+elt-406,406.000,406.100,406 MHz Distress Beacons,Aviation,COSPAS-SARSAT ELT / EPIRB / PLB digital distress beacons.,PSK,distress;beacon;satellite,47 CFR Part 87 / C-S T.001
+elt-1215,121.7750,121.8250,ELT Homing 121.775,Aviation,Legacy 121.5 MHz beacon homing sweep region.,AM,distress;beacon,47 CFR Part 87

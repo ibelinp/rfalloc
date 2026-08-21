@@ -1,0 +1,17 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+ism-13m,13.553,13.567,ISM 13.56 MHz,Unlicensed,RFID and NFC industrial-scientific-medical band.,ASK,ism;rfid;nfc,47 CFR 18.301
+ism-27m,26.957,27.283,ISM 27.12 MHz,Unlicensed,Industrial heating; also overlaps CB and RC models.,,ism,47 CFR 18.301
+ism-40m,40.660,40.700,ISM 40.68 MHz,Unlicensed,Industrial-scientific-medical; low-power remote control.,,ism,47 CFR 18.301
+part15-315,314.900,315.100,315 MHz Remote Control,Unlicensed,"Key fobs, garage doors and TPMS sensors in North America.",OOK/FSK,ism;remote;tpms,47 CFR 15.231
+part15-433,433.050,434.790,433 MHz Part 15 Devices,Unlicensed,"Imported sensors and remotes; in the US this is inside the amateur 70 cm band, not an ISM band as it is in Region 1.",OOK/FSK,ism;remote;sensors,47 CFR 15.231
+part15-902,902.000,928.000,902-928 MHz ISM,Unlicensed,"LoRa, Z-Wave (908.42), smart meters, cordless phones and RFID.",LoRa/FHSS,ism;iot;lora,47 CFR 15.247
+ism-2400,2400.000,2483.500,2.4 GHz ISM,Unlicensed,"Wi-Fi 802.11b/g/n/ax, Bluetooth, Zigbee and microwave ovens.",OFDM/FHSS,ism;wifi;bluetooth,47 CFR 15.247
+bluetooth,2402.000,2480.000,Bluetooth,Unlicensed,79 channels of 1 MHz (classic) or 40 of 2 MHz (BLE); frequency hopping.,GFSK,bluetooth;ism,Bluetooth Core Spec
+wifi-unii1,5150.000,5250.000,U-NII-1 (5.2 GHz Wi-Fi),Unlicensed,Wi-Fi channels 36-48; indoor and outdoor since 2014.,OFDM,wifi;unii,47 CFR 15.407
+wifi-unii2a,5250.000,5350.000,U-NII-2A (DFS),Unlicensed,Wi-Fi channels 52-64; dynamic frequency selection required (radar).,OFDM,wifi;unii;dfs,47 CFR 15.407
+wifi-unii2c,5470.000,5725.000,U-NII-2C (DFS),Unlicensed,Wi-Fi channels 100-144; DFS required to protect weather radar.,OFDM,wifi;unii;dfs,47 CFR 15.407
+wifi-unii3,5725.000,5850.000,U-NII-3 (5.8 GHz Wi-Fi),Unlicensed,Wi-Fi channels 149-165; also 5.8 GHz ISM devices.,OFDM,wifi;unii;ism,47 CFR 15.407
+wifi-6e,5925.000,7125.000,6 GHz Wi-Fi (U-NII-5 to 8),Unlicensed,Wi-Fi 6E and 7; low-power indoor and standard-power AFC.,OFDM,wifi;6ghz,47 CFR 15.407
+ism-24ghz,24000.000,24250.000,24 GHz ISM,Unlicensed,Doppler motion sensors and short-range radar.,FMCW,ism;radar,47 CFR 15.245
+wigig-60,57000.000,71000.000,60 GHz (WiGig),Unlicensed,802.11ad/ay short-range multi-gigabit links.,OFDM,wifi;mmwave,47 CFR 15.255
+uwb,3100.000,10600.000,Ultra-Wideband,Unlicensed,UWB ranging and radar; very low spectral density.,UWB,uwb;ranging,47 CFR Part 15 Subpart F

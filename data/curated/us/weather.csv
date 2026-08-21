@@ -1,0 +1,8 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+noaa-wx1,162.5375,162.5625,NOAA Weather Radio WX1,Weather,NOAA All Hazards continuous broadcast; NWS forecast and warning audio.,NFM,weather;noaa;broadcast,NWS / NTIA Redbook
+noaa-wx2,162.3875,162.4125,NOAA Weather Radio WX2,Weather,NOAA All Hazards continuous broadcast; NWS forecast and warning audio.,NFM,weather;noaa;broadcast,NWS / NTIA Redbook
+noaa-wx3,162.4625,162.4875,NOAA Weather Radio WX3,Weather,NOAA All Hazards continuous broadcast; NWS forecast and warning audio.,NFM,weather;noaa;broadcast,NWS / NTIA Redbook
+noaa-wx4,162.4125,162.4375,NOAA Weather Radio WX4,Weather,NOAA All Hazards continuous broadcast; NWS forecast and warning audio.,NFM,weather;noaa;broadcast,NWS / NTIA Redbook
+noaa-wx5,162.4375,162.4625,NOAA Weather Radio WX5,Weather,NOAA All Hazards continuous broadcast; NWS forecast and warning audio.,NFM,weather;noaa;broadcast,NWS / NTIA Redbook
+noaa-wx6,162.4875,162.5125,NOAA Weather Radio WX6,Weather,NOAA All Hazards continuous broadcast; NWS forecast and warning audio.,NFM,weather;noaa;broadcast,NWS / NTIA Redbook
+noaa-wx7,162.5125,162.5375,NOAA Weather Radio WX7,Weather,NOAA All Hazards continuous broadcast; NWS forecast and warning audio.,NFM,weather;noaa;broadcast,NWS / NTIA Redbook

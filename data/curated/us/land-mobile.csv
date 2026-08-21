@@ -1,0 +1,19 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+lm-vhf-lo,30.000,50.000,VHF Low Band Land Mobile,Land Mobile,Legacy public safety and utility; skip-prone.,NFM,landmobile;publicsafety,47 CFR Part 90
+lm-vhf-hi,150.800,162.0125,VHF High Band Land Mobile,Land Mobile,"Public safety, business and itinerant; 12.5 kHz narrowband.",NFM/P25,landmobile;publicsafety,47 CFR Part 90
+lm-fire-mutual-154265,154.2575,154.2725,Fire Mutual Aid 154.265,Land Mobile,VFIRE22 national fire mutual aid channel.,NFM,publicsafety;fire,47 CFR Part 90
+lm-fire-mutual-154280,154.2725,154.2875,Fire Mutual Aid 154.280,Land Mobile,VFIRE21 national fire mutual aid calling channel.,NFM,publicsafety;fire,47 CFR Part 90
+lm-fire-mutual-154295,154.2875,154.3025,Fire Mutual Aid 154.295,Land Mobile,VFIRE23 national fire mutual aid channel.,NFM,publicsafety;fire,47 CFR Part 90
+lm-ems-155340,155.3325,155.3475,EMS / HEAR 155.340,Land Mobile,Hospital Emergency Administrative Radio; ambulance to hospital.,NFM,publicsafety;ems,47 CFR Part 90
+lm-vlaw31-155475,155.4675,155.4825,National Law Enforcement 155.475,Land Mobile,VLAW31 national law enforcement interoperability channel.,NFM,publicsafety;police,47 CFR Part 90
+lm-vcall10-1557525,155.7450,155.7600,VCALL10 155.7525,Land Mobile,National VHF interoperability calling channel.,NFM,publicsafety;interop,47 CFR 90.20
+lm-railroad,159.810,161.565,Railroad (AAR),Land Mobile,AAR road and yard channels; 160.215-161.565 is the main block.,NFM,railroad;landmobile,47 CFR Part 90 / AAR
+lm-marine-onboard,457.5125,457.6125,Marine On-Board UHF,Land Mobile,Low-power on-board vessel communication channels.,NFM,marine;landmobile,47 CFR 80.373
+lm-uhf,450.000,470.000,UHF Land Mobile,Land Mobile,"Business, public safety and GMRS repeaters; 12.5 kHz narrowband.",NFM/P25,landmobile;publicsafety,47 CFR Part 90
+lm-tband,470.000,512.000,T-Band Land Mobile,Land Mobile,Shared with TV channels 14-20 in 11 major metro areas.,NFM/P25,landmobile;publicsafety,47 CFR 90.303
+lm-firstnet-b14,758.000,768.000,FirstNet Band 14 Downlink,Land Mobile,Nationwide public safety broadband downlink.,LTE,publicsafety;lte;firstnet,47 CFR Part 90 Subpart R
+lm-700-ps,769.000,775.000,700 MHz Public Safety Narrowband,Land Mobile,P25 narrowband public safety base transmit.,P25,publicsafety;p25,47 CFR Part 90 Subpart R
+lm-800-ps,851.000,869.000,800 MHz Public Safety / SMR,Land Mobile,NPSPAC and business trunked systems; base transmit.,P25/NFM,publicsafety;p25;trunked,47 CFR Part 90 Subpart S
+pager-929,929.000,932.000,Paging (929-932),Land Mobile,POCSAG and FLEX one-way paging carriers.,FSK,paging;data,47 CFR Part 22 Subpart E
+pager-152,152.007,152.240,VHF Paging (152 MHz),Land Mobile,One-way paging base transmitters.,FSK,paging;data,47 CFR Part 22 Subpart E
+wmts-608,608.000,614.000,Wireless Medical Telemetry (WMTS),Land Mobile,Hospital patient telemetry; shares channel 37 with radio astronomy.,,medical;telemetry,47 CFR Part 95 Subpart H

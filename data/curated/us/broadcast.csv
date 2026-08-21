@@ -1,0 +1,21 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+bc-am-mw,0.530,1.700,AM Broadcast (Medium Wave),Broadcast,US AM band; 10 kHz channel spacing; 540-1700 kHz carriers.,AM,broadcast;mw,47 CFR Part 73 Subpart A
+bc-sw-120m,2.300,2.495,120 m Shortwave Broadcast,Broadcast,Tropical broadcasting band.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-90m,3.200,3.400,90 m Shortwave Broadcast,Broadcast,Tropical broadcasting band.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-75m,3.900,4.000,75 m Shortwave Broadcast,Broadcast,International broadcasting.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-60m,4.750,5.060,60 m Shortwave Broadcast,Broadcast,Tropical broadcasting band.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-49m,5.800,6.200,49 m Shortwave Broadcast,Broadcast,Heavily used international broadcasting band; best at night.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-41m,7.200,7.600,41 m Shortwave Broadcast,Broadcast,International broadcasting; partly shared with amateur 40 m.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-31m,9.400,9.900,31 m Shortwave Broadcast,Broadcast,International broadcasting; reliable day and night.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-25m,11.600,12.100,25 m Shortwave Broadcast,Broadcast,International broadcasting; daytime.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-22m,13.570,13.870,22 m Shortwave Broadcast,Broadcast,International broadcasting; daytime.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-19m,15.100,15.830,19 m Shortwave Broadcast,Broadcast,International broadcasting; daytime.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-16m,17.480,17.900,16 m Shortwave Broadcast,Broadcast,International broadcasting; daytime.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-13m,21.450,21.850,13 m Shortwave Broadcast,Broadcast,International broadcasting; high solar activity only.,AM,broadcast;sw,ITU RR Article 5
+bc-sw-11m,25.670,26.100,11 m Shortwave Broadcast,Broadcast,International broadcasting; high solar activity only.,AM,broadcast;sw,ITU RR Article 5
+bc-tv-vhf-lo,54.000,88.000,TV Channels 2-6 (VHF Low),Broadcast,ATSC digital television; 6 MHz channels. 72-76 MHz is not TV.,ATSC,broadcast;tv,47 CFR Part 73 Subpart E
+bc-fm,88.000,108.000,FM Broadcast,Broadcast,US FM band; 200 kHz channel spacing on odd tenths 88.1-107.9.,WFM,broadcast;fm,47 CFR Part 73 Subpart B
+bc-tv-vhf-hi,174.000,216.000,TV Channels 7-13 (VHF High),Broadcast,ATSC digital television; 6 MHz channels.,ATSC,broadcast;tv,47 CFR Part 73 Subpart E
+bc-tv-uhf,470.000,608.000,TV Channels 14-36 (UHF),Broadcast,ATSC digital television after the 2017 repack; 6 MHz channels.,ATSC,broadcast;tv,47 CFR Part 73 Subpart E
+bc-tv-ch37,608.000,614.000,Channel 37 (Radio Astronomy),Broadcast,Reserved for radio astronomy and wireless medical telemetry; no TV.,,broadcast;radioastronomy,47 CFR 2.106 US74
+bc-tv-ch38,614.000,698.000,600 MHz Band (former TV 38-51),Broadcast,Reallocated to mobile broadband in the incentive auction.,LTE/NR,broadcast;cellular,47 CFR Part 27

@@ -1,0 +1,33 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+ham-2200m,0.1357,0.1378,2200 m Amateur Band,Amateur,LF amateur allocation; 1 W EIRP limit.,CW/DATA,amateur;lf,47 CFR 97.301
+ham-630m,0.472,0.479,630 m Amateur Band,Amateur,MF amateur allocation; 5 W EIRP limit.,CW/DATA,amateur;mf,47 CFR 97.301
+ham-160m,1.800,2.000,160 m Amateur Band,Amateur,Top band; primarily CW and SSB at night.,CW/SSB,amateur;hf,47 CFR 97.301
+ham-80m,3.500,4.000,80/75 m Amateur Band,Amateur,CW/data below 3.600; phone above (US class dependent).,CW/SSB,amateur;hf,47 CFR 97.301
+ham-60m,5.330,5.407,60 m Amateur Band,Amateur,Five discrete USB channels shared with federal users; secondary.,USB,amateur;hf,47 CFR 97.303(h)
+ham-40m,7.000,7.300,40 m Amateur Band,Amateur,Global daytime and evening DX band.,CW/SSB,amateur;hf,47 CFR 97.301
+ham-30m,10.100,10.150,30 m Amateur Band,Amateur,WARC band; CW and data only; no phone.,CW/DATA,amateur;hf,47 CFR 97.301
+ham-20m,14.000,14.350,20 m Amateur Band,Amateur,Primary long-haul DX band.,CW/SSB,amateur;hf,47 CFR 97.301
+ham-17m,18.068,18.168,17 m Amateur Band,Amateur,WARC band; no contest operation by convention.,CW/SSB,amateur;hf,47 CFR 97.301
+ham-15m,21.000,21.450,15 m Amateur Band,Amateur,Daytime DX band; strongly solar-cycle dependent.,CW/SSB,amateur;hf,47 CFR 97.301
+ham-12m,24.890,24.990,12 m Amateur Band,Amateur,WARC band.,CW/SSB,amateur;hf,47 CFR 97.301
+ham-10m,28.000,29.700,10 m Amateur Band,Amateur,Includes FM simplex and repeaters above 29.500.,CW/SSB/FM,amateur;hf,47 CFR 97.301
+ham-6m,50.000,54.000,6 m Amateur Band,Amateur,The magic band; sporadic-E and meteor scatter.,CW/SSB/FM,amateur;vhf,47 CFR 97.301
+ham-2m,144.000,148.000,2 m Amateur Band,Amateur,Most active VHF band; repeaters 145.1-145.5 and 146.0-148.0.,FM/SSB,amateur;vhf,47 CFR 97.301
+ham-125m,222.000,225.000,1.25 m Amateur Band,Amateur,US-specific VHF allocation.,FM/SSB,amateur;vhf,47 CFR 97.301
+ham-70cm,420.000,450.000,70 cm Amateur Band,Amateur,Secondary to federal radiolocation; repeaters 440-450.,FM/SSB,amateur;uhf,47 CFR 97.301
+ham-33cm,902.000,928.000,33 cm Amateur Band,Amateur,Shared with Part 15 ISM devices; secondary.,FM/DATA,amateur;uhf,47 CFR 97.301
+ham-23cm,1240.000,1300.000,23 cm Amateur Band,Amateur,Secondary; shared with radiolocation and GNSS.,FM/SSB,amateur;uhf,47 CFR 97.301
+ham-13cm,2390.000,2450.000,13 cm Amateur Band,Amateur,Shared with ISM; ATV and satellite use.,ATV/SSB,amateur;shf,47 CFR 97.301
+ham-calling-50125,50.1225,50.1275,6 m SSB Calling 50.125,Amateur,National SSB calling frequency on 6 m.,USB,amateur;calling,ARRL band plan
+ham-calling-52525,52.5150,52.5350,6 m FM Calling 52.525,Amateur,National FM simplex calling frequency on 6 m.,FM,amateur;calling,ARRL band plan
+ham-calling-144200,144.1975,144.2025,2 m SSB Calling 144.200,Amateur,National SSB calling frequency on 2 m.,USB,amateur;calling,ARRL band plan
+ham-calling-146520,146.5100,146.5300,2 m FM Calling 146.520,Amateur,National FM simplex calling frequency; the most-used simplex channel.,FM,amateur;calling,ARRL band plan
+ham-calling-223500,223.4900,223.5100,1.25 m FM Calling 223.500,Amateur,National FM simplex calling frequency on 1.25 m.,FM,amateur;calling,ARRL band plan
+ham-calling-446000,445.9900,446.0100,70 cm FM Calling 446.000,Amateur,National FM simplex calling frequency on 70 cm.,FM,amateur;calling,ARRL band plan
+ham-aprs-144390,144.3800,144.4000,APRS 144.390,Amateur,North American APRS packet frequency; 1200 baud AFSK.,AFSK,amateur;aprs;data,ARRL band plan
+ham-wspr-14,14.0956,14.0972,WSPR 20 m,Amateur,Weak Signal Propagation Reporter beacon segment.,WSPR,amateur;digital,WSJT-X convention
+ham-ft8-14074,14.0740,14.0747,FT8 20 m,Amateur,FT8 digital calling frequency on 20 m.,FT8,amateur;digital,WSJT-X convention
+ham-sat-2m,145.800,146.000,Amateur Satellite 2 m,Amateur,Satellite-only segment; ISS downlinks and linear transponders.,FM/SSB,amateur;satellite,47 CFR 97.207 / IARU
+ham-sat-70cm,435.000,438.000,Amateur Satellite 70 cm,Amateur,Satellite sub-band; transponder uplinks and downlinks.,FM/SSB,amateur;satellite,47 CFR 97.207 / IARU
+iss-voice-145800,145.7900,145.8100,ISS Voice Downlink,Amateur,International Space Station crew voice and SSTV downlink.,FM,amateur;satellite;iss,ARISS
+iss-aprs-145825,145.8150,145.8350,ISS APRS Digipeater,Amateur,ISS packet digipeater uplink and downlink.,AFSK,amateur;satellite;iss,ARISS

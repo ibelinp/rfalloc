@@ -1,0 +1,11 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+wwvb-60k,0.0599,0.0601,WWVB 60 kHz,Time Standard,NIST time-code station Fort Collins CO; sets radio-controlled clocks.,PWM,time;standard;lf,NIST
+wwv-25,2.4995,2.5005,WWV/WWVH 2.5 MHz,Time Standard,NIST standard frequency and time signal.,AM,time;standard;hf,NIST / 47 CFR 2.106
+wwv-5,4.9995,5.0005,WWV/WWVH 5 MHz,Time Standard,NIST standard frequency and time signal.,AM,time;standard;hf,NIST / 47 CFR 2.106
+wwv-10,9.9995,10.0005,WWV/WWVH 10 MHz,Time Standard,NIST standard frequency and time signal; most reliable WWV channel.,AM,time;standard;hf,NIST / 47 CFR 2.106
+wwv-15,14.9995,15.0005,WWV/WWVH 15 MHz,Time Standard,NIST standard frequency and time signal.,AM,time;standard;hf,NIST / 47 CFR 2.106
+wwv-20,19.9995,20.0005,WWV 20 MHz,Time Standard,NIST standard frequency and time signal (WWV only).,AM,time;standard;hf,NIST / 47 CFR 2.106
+wwv-25b,24.9995,25.0005,WWV 25 MHz,Time Standard,NIST experimental standard frequency broadcast.,AM,time;standard;hf,NIST
+chu-3330,3.3295,3.3305,CHU 3330 kHz,Time Standard,Canadian NRC time signal station.,USB,time;standard;hf,NRC Canada
+chu-7850,7.8495,7.8505,CHU 7850 kHz,Time Standard,Canadian NRC time signal station.,USB,time;standard;hf,NRC Canada
+chu-14670,14.6695,14.6705,CHU 14670 kHz,Time Standard,Canadian NRC time signal station.,USB,time;standard;hf,NRC Canada

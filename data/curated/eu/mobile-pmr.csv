@@ -1,0 +1,21 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+eu-tetra-emergency-ul,380.000,385.000,TETRA Emergency Uplink,Land Mobile,Harmonised CEPT emergency services TETRA; terminal transmit.,TETRA,tetra;publicsafety;region1,ECC/DEC/(08)05
+eu-tetra-emergency-dl,390.000,395.000,TETRA Emergency Downlink,Land Mobile,Harmonised CEPT emergency services TETRA; base transmit.,TETRA,tetra;publicsafety;region1,ECC/DEC/(08)05
+eu-tetra-civil,410.000,430.000,TETRA Civil / Commercial,Land Mobile,Commercial TETRA and PMR; 410-420 uplink paired with 420-430 downlink.,TETRA,tetra;pmr;region1,ECC/DEC/(04)06
+eu-pmr-vhf,146.000,174.000,VHF PMR (CEPT),Land Mobile,European private mobile radio; 12.5 kHz narrowband. Note 2 m amateur ends at 146.,NFM/DMR,pmr;region1,ERC/REC 70-03 / national
+eu-gsmr-ul,876.000,880.000,GSM-R Uplink,Land Mobile,Railway GSM; train-to-ground uplink across the European rail network.,GSM,railway;gsmr;region1,ECC/DEC/(02)05
+eu-gsmr-dl,921.000,925.000,GSM-R Downlink,Land Mobile,Railway GSM; ground-to-train downlink.,GSM,railway;gsmr;region1,ECC/DEC/(02)05
+eu-gsm900-ul,880.000,915.000,GSM/LTE 900 Uplink (B8),Land Mobile,E-GSM and LTE band 8 handset transmit.,GSM/LTE,cellular;region1,ECC/DEC/(06)13
+eu-gsm900-dl,925.000,960.000,GSM/LTE 900 Downlink (B8),Land Mobile,E-GSM and LTE band 8 base transmit.,GSM/LTE,cellular;region1,ECC/DEC/(06)13
+eu-dcs1800-ul,1710.000,1785.000,GSM/LTE 1800 Uplink (B3),Land Mobile,DCS1800 and LTE band 3 handset transmit.,GSM/LTE,cellular;region1,ECC/DEC/(06)13
+eu-dcs1800-dl,1805.000,1880.000,GSM/LTE 1800 Downlink (B3),Land Mobile,DCS1800 and LTE band 3 base transmit.,GSM/LTE,cellular;region1,ECC/DEC/(06)13
+eu-umts-ul,1920.000,1980.000,UMTS/LTE 2100 Uplink (B1),Land Mobile,IMT core band handset transmit.,UMTS/LTE,cellular;region1,ECC/DEC/(06)01
+eu-umts-dl,2110.000,2170.000,UMTS/LTE 2100 Downlink (B1),Land Mobile,IMT core band base transmit.,UMTS/LTE,cellular;region1,ECC/DEC/(06)01
+eu-b20-dl,791.000,821.000,LTE 800 Downlink (B20),Land Mobile,Digital dividend band; base transmit. Europe-specific pairing.,LTE,cellular;region1,ECC/DEC/(09)03
+eu-b20-ul,832.000,862.000,LTE 800 Uplink (B20),Land Mobile,Digital dividend band; handset transmit.,LTE,cellular;region1,ECC/DEC/(09)03
+eu-b28-dl,758.000,788.000,LTE/5G 700 Downlink (n28),Land Mobile,700 MHz band cleared from DVB-T; base transmit.,LTE/NR,cellular;5g;region1,EU 2017/899
+eu-b28-ul,703.000,733.000,LTE/5G 700 Uplink (n28),Land Mobile,700 MHz band cleared from DVB-T; handset transmit.,LTE/NR,cellular;5g;region1,EU 2017/899
+eu-n78,3400.000,3800.000,5G n78 (3.5 GHz),Land Mobile,European 5G pioneer mid-band; TDD. Wider than the US CBRS block.,NR,cellular;5g;region1,ECC/DEC/(11)06
+eu-n258,24250.000,27500.000,5G n258 (26 GHz),Land Mobile,European millimetre-wave 5G pioneer band.,NR,cellular;5g;mmwave;region1,ECC/DEC/(18)06
+eu-ecall,876.000,915.000,eCall,Land Mobile,In-vehicle emergency call over cellular; no dedicated spectrum of its own.,LTE,automotive;region1,EU 2015/758
+eu-airband-833,118.000,136.990,VHF Air Band (8.33 kHz),Land Mobile,Same band as the US but mandatory 8.33 kHz channel spacing across Europe.,AM,aviation;region1,EU 1079/2012

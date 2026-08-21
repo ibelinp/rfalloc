@@ -1,0 +1,22 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+eu-srd-433,433.050,434.790,433 MHz SRD/ISM (R1),Unlicensed,"Region 1 ISM band: key fobs, weather sensors, LPD433 and telemetry.",OOK/FSK,srd;ism;region1,ERC/REC 70-03 Annex 1
+eu-lpd433,433.075,434.775,LPD433,Unlicensed,69 licence-exempt voice channels at 25 kHz spacing; 10 mW.,NFM,srd;voice;region1,ERC/REC 70-03
+eu-srd-863,863.000,865.000,SRD 863-865 MHz,Unlicensed,Non-specific short range devices and wireless audio; 25 mW ERP.,FSK,srd;region1,ERC/REC 70-03 Annex 1
+eu-lorawan-eu868,865.000,868.000,LoRaWAN EU868 (865-868),Unlicensed,"LoRaWAN EU863-870 band; 25 mW, duty-cycle limited.",LoRa,srd;lora;iot;region1,ERC/REC 70-03 / LoRa Alliance
+eu-lorawan-up1,868.0875,868.1125,LoRaWAN EU868 Uplink 868.1,Unlicensed,Mandatory LoRaWAN join/uplink channel.,LoRa,srd;lora;iot;region1,LoRa Alliance RP002
+eu-lorawan-up2,868.2875,868.3125,LoRaWAN EU868 Uplink 868.3,Unlicensed,Mandatory LoRaWAN join/uplink channel.,LoRa,srd;lora;iot;region1,LoRa Alliance RP002
+eu-lorawan-up3,868.4875,868.5125,LoRaWAN EU868 Uplink 868.5,Unlicensed,Mandatory LoRaWAN join/uplink channel.,LoRa,srd;lora;iot;region1,LoRa Alliance RP002
+eu-lorawan-rx2,869.4250,869.6250,LoRaWAN RX2 869.525,Unlicensed,LoRaWAN downlink RX2 window; 500 mW ERP sub-band.,LoRa,srd;lora;iot;region1,LoRa Alliance RP002
+eu-srd-8680,868.000,868.600,SRD 868.0-868.6,Unlicensed,Non-specific SRD; 25 mW ERP and 1% duty cycle.,FSK,srd;region1,ERC/REC 70-03 Annex 1
+eu-srd-8687,868.700,869.200,SRD 868.7-869.2,Unlicensed,Non-specific SRD; 25 mW ERP and 0.1% duty cycle.,FSK,srd;region1,ERC/REC 70-03 Annex 1
+eu-srd-alarm,869.200,869.250,Social Alarms 869.2125,Unlicensed,Social alarm devices; 10 mW ERP.,FSK,srd;alarm;region1,ERC/REC 70-03 Annex 7
+eu-srd-8694,869.400,869.650,SRD 869.4-869.65,Unlicensed,High-power SRD sub-band; 500 mW ERP and 10% duty cycle.,FSK,srd;region1,ERC/REC 70-03 Annex 1
+eu-zwave-868,868.3875,868.4125,Z-Wave EU 868.42,Unlicensed,Z-Wave home automation channel in Europe; the US uses 908.42.,GFSK,srd;zwave;iot;region1,ITU-T G.9959
+eu-rfid-865,865.600,867.600,UHF RFID (EU),Unlicensed,European UHF RFID interrogator band; 2 W ERP. The US uses 902-928.,FHSS,rfid;region1,ETSI EN 302 208
+eu-srd-169,169.400,169.475,169 MHz SRD / Metering,Unlicensed,Wireless M-Bus smart metering and assistive listening.,FSK,srd;metering;region1,ERC/REC 70-03 Annex 1
+eu-wmbus-8685,868.475,868.525,Wireless M-Bus 868.95,Unlicensed,Wireless M-Bus mode T/C smart meter telemetry.,FSK,srd;metering;region1,EN 13757-4
+eu-tpms-433,433.900,433.940,TPMS 433.92 (EU),Unlicensed,European tyre pressure monitoring sensors; the US uses 315 MHz.,ASK/FSK,srd;tpms;region1,ERC/REC 70-03
+eu-wifi-24,2400.000,2483.500,2.4 GHz ISM (CEPT),Unlicensed,"Wi-Fi channels 1-13 in Europe; channel 14 is not available.",OFDM/FHSS,wifi;ism;region1,ERC/REC 70-03 Annex 3
+eu-wifi-5,5150.000,5350.000,5 GHz Wi-Fi (CEPT lower),Unlicensed,Indoor only; DFS and TPC required above 5250 MHz.,OFDM,wifi;region1,ECC/DEC/(04)08
+eu-wifi-5b,5470.000,5725.000,5 GHz Wi-Fi (CEPT upper),Unlicensed,DFS and TPC mandatory to protect radar; 1 W EIRP.,OFDM,wifi;region1,ECC/DEC/(04)08
+eu-wifi-6e,5945.000,6425.000,6 GHz Wi-Fi (CEPT),Unlicensed,European Wi-Fi 6E allocation; narrower than the US 5925-7125.,OFDM,wifi;6ghz;region1,ECC/DEC/(20)01

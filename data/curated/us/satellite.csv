@@ -1,0 +1,21 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+gnss-gps-l1,1574.397,1576.443,GPS L1 (1575.42),Satellite,GPS L1 C/A and L1C civil signal; 2.046 MHz null-to-null C/A.,BPSK,gnss;gps;satellite,IS-GPS-200
+gnss-gps-l2,1226.577,1228.623,GPS L2 (1227.60),Satellite,GPS L2C civil and P(Y) military signal.,BPSK,gnss;gps;satellite,IS-GPS-200
+gnss-gps-l5,1164.450,1188.450,GPS L5 (1176.45),Satellite,GPS L5 safety-of-life signal; 24 MHz wide.,BPSK,gnss;gps;satellite,IS-GPS-705
+gnss-glonass-l1,1598.0625,1605.375,GLONASS L1,Satellite,GLONASS FDMA L1 channels around 1602 MHz.,BPSK,gnss;glonass;satellite,GLONASS ICD
+gnss-galileo-e1,1573.374,1577.466,Galileo E1,Satellite,Galileo E1 open service; overlaps GPS L1.,BOC,gnss;galileo;satellite,Galileo OS SIS ICD
+gnss-beidou-b1,1559.052,1563.144,BeiDou B1I,Satellite,BeiDou B1I signal.,BPSK,gnss;beidou;satellite,BDS SIS ICD
+noaa-apt-137100,137.0875,137.1125,NOAA APT 137.100,Satellite,Polar-orbiting weather satellite APT downlink (also used by Meteor-M).,APT,weather;satellite;imagery,NOAA/NESDIS
+noaa-apt-137620,137.6075,137.6325,NOAA-18 APT 137.620,Satellite,NOAA-18 automatic picture transmission downlink.,APT,weather;satellite;imagery,NOAA/NESDIS
+noaa-apt-1379125,137.9000,137.9250,NOAA-15 APT 137.9125,Satellite,NOAA-15 automatic picture transmission downlink.,APT,weather;satellite;imagery,NOAA/NESDIS
+weather-hrpt,1698.000,1710.000,POES HRPT / Metop AHRPT,Satellite,High Resolution Picture Transmission from polar weather satellites.,QPSK,weather;satellite;imagery,NOAA/NESDIS
+goes-hrit,1694.000,1694.200,GOES HRIT/EMWIN (1694.1),Satellite,GOES-R series High Rate Information Transmission downlink.,BPSK,weather;satellite;imagery,NOAA GOES-R
+orbcomm-downlink,137.000,138.000,Orbcomm Downlink,Satellite,Orbcomm LEO data satellite downlinks; VHF.,SDPSK,satellite;data,47 CFR Part 25
+argos-401650,401.5900,401.7100,Argos Uplink (401.65),Satellite,Argos environmental data collection platform uplinks.,PSK,satellite;data;telemetry,CNES/NOAA Argos
+iridium-lband,1616.000,1626.500,Iridium L-band,Satellite,Iridium satellite phone and data; TDMA/FDMA bursts.,QPSK,satellite;voice;data,47 CFR Part 25
+inmarsat-down,1525.000,1559.000,Inmarsat L-band Downlink,Satellite,Inmarsat space-to-Earth including STD-C and AERO.,BPSK,satellite;data,47 CFR Part 25
+inmarsat-up,1626.500,1660.500,Inmarsat L-band Uplink,Satellite,Inmarsat Earth-to-space.,BPSK,satellite;data,47 CFR Part 25
+globalstar-down,2483.500,2500.000,Globalstar Downlink,Satellite,Globalstar S-band space-to-Earth.,CDMA,satellite;voice;data,47 CFR Part 25
+sdars-satradio,2320.000,2345.000,Satellite Radio (SDARS),Satellite,SiriusXM Satellite Digital Audio Radio Service.,QPSK,satellite;broadcast;audio,47 CFR Part 25
+sarsat-406,406.000,406.100,COSPAS-SARSAT 406,Satellite,406 MHz distress beacon uplink to search-and-rescue satellites.,PSK,distress;beacon;satellite,C-S T.001
+radiosonde-403,400.150,406.000,Radiosonde / Meteorological Aids,Satellite,Weather balloon telemetry; 400-406 MHz meteorological aids band.,GFSK,weather;telemetry;sonde,47 CFR 2.106 US70

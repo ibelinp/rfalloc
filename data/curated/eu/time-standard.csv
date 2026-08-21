@@ -1,0 +1,6 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+eu-dcf77,0.07745,0.07755,DCF77 (77.5 kHz),Time Standard,German PTB time signal from Mainflingen; sets most European radio clocks.,ASK/PSK,time;standard;lf;region1,PTB Braunschweig
+eu-msf,0.05995,0.06005,MSF (60 kHz),Time Standard,UK NPL time signal from Anthorn.,ASK,time;standard;lf;region1,NPL
+eu-tdf162,0.16195,0.16205,ALS162 / TDF (162 kHz),Time Standard,French time signal from Allouis; phase modulation on the carrier.,PM,time;standard;lf;region1,LNE-SYRTE
+eu-hbg,0.07495,0.07505,HBG (75 kHz),Time Standard,Former Swiss time signal from Prangins; ceased 2011. Listed for historic signals.,ASK,time;standard;lf;region1,METAS
+eu-rbu,0.06655,0.06665,RBU (66.66 kHz),Time Standard,Russian time and frequency standard from Taldom.,PM,time;standard;lf;region1,VNIIFTRI

@@ -1,0 +1,17 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+pmr446-01,446.00000,446.01250,PMR446 Channel 1,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-02,446.01250,446.02500,PMR446 Channel 2,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-03,446.02500,446.03750,PMR446 Channel 3,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-04,446.03750,446.05000,PMR446 Channel 4,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-05,446.05000,446.06250,PMR446 Channel 5,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-06,446.06250,446.07500,PMR446 Channel 6,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-07,446.07500,446.08750,PMR446 Channel 7,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-08,446.08750,446.10000,PMR446 Channel 8,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-09,446.10000,446.11250,PMR446 Channel 9,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only. Also used by dPMR446/DMR446 digital sets.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-10,446.11250,446.12500,PMR446 Channel 10,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only. Also used by dPMR446/DMR446 digital sets.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-11,446.12500,446.13750,PMR446 Channel 11,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only. Also used by dPMR446/DMR446 digital sets.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-12,446.13750,446.15000,PMR446 Channel 12,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only. Also used by dPMR446/DMR446 digital sets.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-13,446.15000,446.16250,PMR446 Channel 13,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only. Also used by dPMR446/DMR446 digital sets.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-14,446.16250,446.17500,PMR446 Channel 14,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only. Also used by dPMR446/DMR446 digital sets.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-15,446.17500,446.18750,PMR446 Channel 15,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only. Also used by dPMR446/DMR446 digital sets.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296
+pmr446-16,446.18750,446.20000,PMR446 Channel 16,Personal Radio,"Licence-exempt CEPT PMR446; 500 mW ERP, integral antenna only. Also used by dPMR446/DMR446 digital sets.",NFM,pmr446;personal;cept,ECC/DEC/(15)05 / ETSI EN 300 296

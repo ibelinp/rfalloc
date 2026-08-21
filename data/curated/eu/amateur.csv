@@ -1,0 +1,24 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+eu-ham-2200m,0.1357,0.1378,2200 m Amateur Band (R1),Amateur,LF amateur allocation; 1 W EIRP.,CW/DATA,amateur;lf;region1,IARU Region 1 bandplan
+eu-ham-630m,0.472,0.479,630 m Amateur Band (R1),Amateur,MF amateur allocation; 5 W EIRP.,CW/DATA,amateur;mf;region1,IARU Region 1 bandplan
+eu-ham-160m,1.810,2.000,160 m Amateur Band (R1),Amateur,Starts at 1.810 in Region 1; the US band starts at 1.800.,CW/SSB,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-80m,3.500,3.800,80 m Amateur Band (R1),Amateur,Region 1 stops at 3.800; the US band runs to 4.000.,CW/SSB,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-60m,5.3515,5.3665,60 m Amateur Band (R1),Amateur,15 kHz secondary allocation; 15 W EIRP. Not the US channelised plan.,CW/SSB,amateur;hf;region1,WRC-15 / IARU R1
+eu-ham-40m,7.000,7.200,40 m Amateur Band (R1),Amateur,Region 1 stops at 7.200; the US band runs to 7.300.,CW/SSB,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-30m,10.100,10.150,30 m Amateur Band (R1),Amateur,WARC band; CW and data only.,CW/DATA,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-20m,14.000,14.350,20 m Amateur Band (R1),Amateur,Primary long-haul DX band.,CW/SSB,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-17m,18.068,18.168,17 m Amateur Band (R1),Amateur,WARC band.,CW/SSB,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-15m,21.000,21.450,15 m Amateur Band (R1),Amateur,Daytime DX band.,CW/SSB,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-12m,24.890,24.990,12 m Amateur Band (R1),Amateur,WARC band.,CW/SSB,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-10m,28.000,29.700,10 m Amateur Band (R1),Amateur,FM repeaters above 29.500.,CW/SSB/FM,amateur;hf;region1,IARU Region 1 bandplan
+eu-ham-6m,50.000,52.000,6 m Amateur Band (R1),Amateur,Region 1 allocation ends at 52.000; the US band runs to 54.000.,CW/SSB/FM,amateur;vhf;region1,IARU Region 1 bandplan
+eu-ham-4m,70.000,70.500,4 m Amateur Band,Amateur,Region 1 only; available in the UK and several CEPT countries. No US equivalent.,CW/SSB/FM,amateur;vhf;region1,National administrations
+eu-ham-2m,144.000,146.000,2 m Amateur Band (R1),Amateur,Region 1 ends at 146.000; the US band runs to 148.000.,FM/SSB,amateur;vhf;region1,IARU Region 1 bandplan
+eu-ham-70cm,430.000,440.000,70 cm Amateur Band (R1),Amateur,Region 1 is 430-440; the US band is 420-450. Amateur is primary in R1.,FM/SSB,amateur;uhf;region1,IARU Region 1 bandplan
+eu-ham-23cm,1240.000,1300.000,23 cm Amateur Band (R1),Amateur,Secondary; shared with radiolocation and GNSS.,FM/SSB,amateur;uhf;region1,IARU Region 1 bandplan
+eu-ham-calling-144300,144.2950,144.3050,2 m SSB Calling 144.300 (R1),Amateur,Region 1 SSB calling frequency; the US uses 144.200.,USB,amateur;calling;region1,IARU Region 1 bandplan
+eu-ham-calling-145500,145.4875,145.5125,2 m FM Calling 145.500 (R1),Amateur,Region 1 FM simplex calling; the US uses 146.520.,FM,amateur;calling;region1,IARU Region 1 bandplan
+eu-ham-calling-432200,432.1950,432.2050,70 cm SSB Calling 432.200 (R1),Amateur,Region 1 SSB calling frequency on 70 cm.,USB,amateur;calling;region1,IARU Region 1 bandplan
+eu-ham-calling-433500,433.4875,433.5125,70 cm FM Calling 433.500 (R1),Amateur,Region 1 FM simplex calling; the US uses 446.000.,FM,amateur;calling;region1,IARU Region 1 bandplan
+eu-ham-aprs-144800,144.7900,144.8100,APRS 144.800 (R1),Amateur,Region 1 APRS packet frequency; North America uses 144.390.,AFSK,amateur;aprs;region1,IARU Region 1 bandplan
+eu-ham-70cm-repeater,430.000,440.000,70 cm Repeater Sub-bands (R1),Amateur,Repeater outputs 430.025-431.975 and 438.000-439.975 by IARU R1 plan.,FM,amateur;repeater;region1,IARU Region 1 bandplan

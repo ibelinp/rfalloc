@@ -1,0 +1,8 @@
+id,lo_mhz,hi_mhz,name,service,description,mode,tags,source
+eu-bc-lw,0.1485,0.2835,Long Wave Broadcast,Broadcast,European LW band; 9 kHz spacing. Largely shut down but still active in places.,AM,broadcast;lw;region1,ITU GE75 / ECA Table
+eu-bc-mw,0.5265,1.6065,Medium Wave Broadcast (R1),Broadcast,"European MW band; 9 kHz channel spacing, not the 10 kHz US raster.",AM,broadcast;mw;region1,ITU GE75 / ECA Table
+eu-bc-fm,87.500,108.000,FM Broadcast (CEPT),Broadcast,European FM band starts at 87.5; the US band starts at 88.0. 100 kHz raster.,WFM,broadcast;fm;region1,ITU GE84 / ECA Table
+eu-bc-oirt,65.800,74.000,OIRT FM Band,Broadcast,Legacy Eastern European FM band; largely retired but still used in a few countries.,WFM,broadcast;fm;region1,ECA Table
+eu-bc-dab-band3,174.000,240.000,DAB Band III,Broadcast,European digital radio band; see dab.csv for the individual block raster.,OFDM,broadcast;dab;digital,ETSI EN 300 401
+eu-bc-dvbt-uhf,470.000,694.000,DVB-T/T2 UHF,Broadcast,European digital television after the 700 MHz clearance; 8 MHz channels.,OFDM,broadcast;tv;dvbt,ETSI EN 302 755 / EU 2017/899
+eu-bc-drm-sw,3.950,26.100,DRM Shortwave,Broadcast,Digital Radio Mondiale shares the international broadcasting bands.,DRM,broadcast;sw;digital,ETSI ES 201 980

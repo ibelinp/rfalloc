@@ -1,0 +1,27 @@
+CC0 1.0 Universal — Public Domain Dedication
+============================================
+
+Everything under data/ and every artifact under build/ is released into the
+public domain under CC0 1.0. Full text: https://creativecommons.org/publicdomain/zero/1.0/
+
+Why this is ours to give
+------------------------
+
+The Allocation Table, its footnotes, and the rule-part index are derived from
+the FCC Online Table of Frequency Allocations (47 CFR 2.106), a work of the
+United States Government. Under 17 U.S.C. 105 such works carry no copyright in
+the United States. The curated channel layer in data/curated/ is contributed
+work, dedicated to the public domain by its authors under the same terms.
+
+What must never be added
+------------------------
+
+Do not import data from proprietary databases — RadioReference, commercial
+frequency directories, or any subscription service — even partially, even
+"just to fill a gap". Their compilations are licensed, not public domain, and a
+single import would make this database undistributable. Every curated entry
+must cite a public source in its `source` column.
+
+The ITU Radio Regulations are copyrighted by the ITU. The international
+footnotes here are reproduced from the FCC's own codification of them in the
+Code of Federal Regulations, which is a US Government work.
