@@ -11,8 +11,8 @@ jobs:
     name: Parser and C reader
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -32,7 +32,7 @@ jobs:
       - name: Report any gaps or overlaps
         run: python3 tools/report_issues.py
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: rfalloc-artifacts
           path: |
@@ -46,7 +46,7 @@ jobs:
     name: Swift package
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Build the flat table the tests read
         run: make binary
       - run: swift build
