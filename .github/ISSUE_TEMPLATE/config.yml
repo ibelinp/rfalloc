@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: FCC Online Table of Frequency Allocations
+    url: https://www.fcc.gov/engineering-technology/policy-and-rules-division/general/radio-spectrum-allocation
+    about: The upstream source. Errors in the allocation table itself belong here.
+  - name: CEPT ECC EFIS
+    url: https://efis.cept.org/
+    about: European allocation data, for questions about Region 1 coverage.

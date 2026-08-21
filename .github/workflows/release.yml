@@ -1,0 +1,65 @@
+name: Release
+
+# Tagging is the whole release process: push v0.1.0 and this builds the
+# artifacts from source and attaches them. build/ is deliberately not in git,
+# so without this a cloner would have to run the toolchain to get anything
+# usable, which is a poor deal for someone who only wants the 135 KB table.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Tag to build and release
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build
+        run: make all
+
+      - name: Verify before publishing
+        run: |
+          make test-python
+          make test-c
+
+      - name: Checksums
+        working-directory: build
+        run: sha256sum rfalloc.sqlite rfalloc.json rfalloc.min.json rfalloc.bin > SHA256SUMS.txt
+
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.inputs.tag || github.ref_name }}
+        run: |
+          cat > notes.md <<'NOTES'
+          Built from the FCC Online Table of Frequency Allocations, 47 CFR 2.106.
+
+          | File | Use it when |
+          |---|---|
+          | `rfalloc.bin` | Embedding in an app via the C or Swift reader |
+          | `rfalloc.sqlite` | You want footnote text, rule parts and raw source cells |
+          | `rfalloc.json` | Same content without a SQLite dependency |
+          | `rfalloc.min.json` | Lookup only, for a web front end |
+
+          Verified at build time: zero gaps and zero overlaps across all five
+          jurisdictions, 0 Hz to 275 GHz.
+
+          See [CHANGELOG.md](https://github.com/ibelinp/rfalloc/blob/main/CHANGELOG.md).
+          NOTES
+          gh release create "$TAG" --title "$TAG" --notes-file notes.md \
+            build/rfalloc.sqlite \
+            build/rfalloc.json \
+            build/rfalloc.min.json \
+            build/rfalloc.bin \
+            build/SHA256SUMS.txt

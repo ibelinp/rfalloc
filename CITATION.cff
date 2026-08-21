@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "rfalloc: reverse frequency lookup for spectrum allocations"
+message: "If you use this database in research, please cite it."
+type: dataset
+authors:
+  - family-names: Ibelings
+    given-names: Pieter
+    alias: ibelinp
+repository-code: "https://github.com/ibelinp/rfalloc"
+abstract: >-
+  A queryable database of radio spectrum allocations, parsed from the FCC Online
+  Table of Frequency Allocations (47 CFR 2.106) and covering 0 Hz to 275 GHz
+  across ITU Regions 1, 2 and 3 and both United States tables, together with a
+  curated layer of recognisable channel plans for the United States and Europe.
+  Distributed as SQLite, JSON, and a flat binary read by a dependency-free C99
+  library with a Swift wrapper.
+keywords:
+  - radio spectrum
+  - frequency allocation
+  - software defined radio
+  - signal identification
+  - open data
+license: CC0-1.0

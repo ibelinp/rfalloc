@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  data:
+    name: Parser and C reader
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The parser has no dependencies, so there is nothing to install.
+      - name: Build every artifact
+        run: make all
+
+      # The load-bearing check. The Allocation Table partitions the spectrum,
+      # so a column misassignment shows up as a gap or an overlap here long
+      # before anyone notices it in a lookup.
+      - name: Parser invariants
+        run: make test-python
+
+      - name: C reader
+        run: make test-c
+
+      - name: Report any gaps or overlaps
+        run: python3 tools/report_issues.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: rfalloc-artifacts
+          path: |
+            build/rfalloc.sqlite
+            build/rfalloc.json
+            build/rfalloc.min.json
+            build/rfalloc.bin
+          retention-days: 14
+
+  swift:
+    name: Swift package
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the flat table the tests read
+        run: make binary
+      - run: swift build
+      - run: swift test

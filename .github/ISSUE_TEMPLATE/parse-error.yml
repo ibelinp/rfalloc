@@ -1,0 +1,32 @@
+name: Wrong allocation
+description: The allocation layer disagrees with 47 CFR 2.106
+title: "[parse] "
+labels: ["parser"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The allocation layer is generated, never hand-edited, so a wrong value
+        means the parser is wrong. Include the frequency and the parser can be
+        pointed straight at the source cell.
+  - type: input
+    id: frequency
+    attributes:
+      label: Frequency in MHz
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What the database says
+      description: Paste the output of `python3 tools/lookup.py <freq>`.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What the source says
+      description: Quote 47 CFR 2.106, and give the page if you have it.
+    validations:
+      required: true

@@ -1,0 +1,49 @@
+name: Add or correct a channel
+description: A frequency the database does not name, or names wrongly
+title: "[channel] "
+labels: ["curated-data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is the most useful kind of issue. If you are comfortable editing a
+        CSV, a pull request against `data/curated/<jurisdiction>/` is faster for
+        everyone; see [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md).
+  - type: input
+    id: frequency
+    attributes:
+      label: Frequency or range
+      description: In MHz. Give the full occupied width, not the centre, if you know it.
+      placeholder: "162.550, or 162.5375 to 162.5625"
+    validations:
+      required: true
+  - type: dropdown
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+      options: ["us", "eu", "somewhere else (say which below)"]
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: What it is
+      placeholder: "NOAA Weather Radio WX1"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+      description: >
+        A rule part, standard, or agency. Required. Do not cite RadioReference or
+        any subscription directory; a single such import would make the whole
+        database undistributable.
+      placeholder: "47 CFR 80.371, or ETSI EN 300 401"
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Anything else
+      description: Mode, bandwidth, who uses it, regional caveats.

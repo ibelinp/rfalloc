@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # The project itself has no dependencies; only the workflows pin anything.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

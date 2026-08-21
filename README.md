@@ -1,5 +1,10 @@
 # rfalloc
 
+[![CI](https://github.com/ibelinp/rfalloc/actions/workflows/ci.yml/badge.svg)](https://github.com/ibelinp/rfalloc/actions/workflows/ci.yml)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data: CC0](https://img.shields.io/badge/data-CC0--1.0-lightgrey.svg)](LICENSE-DATA)
+[![Source revision](https://img.shields.io/badge/FCC%20table-3%20Apr%202026-green.svg)](sources/README.md)
+
 Reverse frequency lookup for SDR. Click a signal, learn what it is.
 
 Every authoritative source for spectrum allocation is a PDF, a wall chart, or a
@@ -238,6 +243,12 @@ c/                C99 reader
 swift/            Swift wrapper around the C reader
 docs/             parsing methodology, schema reference
 ```
+
+## Releases
+
+Prebuilt artifacts are attached to every [release](https://github.com/ibelinp/rfalloc/releases),
+so you do not need Python or a compiler to use the data. Tagging `v*` builds and
+publishes them automatically, with checksums.
 
 ## Licence
 
