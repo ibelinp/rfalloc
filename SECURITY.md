@@ -29,6 +29,22 @@ rather than a public issue. Expect a reply within a week.
 
 ## Data integrity
 
-Release artifacts ship with `SHA256SUMS.txt`. The allocation layer is generated
-from `sources/fcctable.docx`, which is committed, so any published artifact can
-be reproduced with `make all` and compared.
+Release artifacts ship with `SHA256SUMS.txt`, which is what you want for
+verifying a download arrived intact.
+
+The allocation layer is generated from `sources/fcctable.docx`, which is
+committed, so any published artifact can be rebuilt with `make all` and
+compared. `rfalloc.json`, `rfalloc.min.json` and `rfalloc.bin` come out
+bit-identical to the published files.
+
+`rfalloc.sqlite` will not. SQLite records the version of the library that wrote
+the file in its header, so a build on a machine with a different SQLite version
+produces different bytes from identical content. Compare the content instead:
+
+```bash
+sqlite3 yours.sqlite .dump > a.sql
+sqlite3 theirs.sqlite .dump > b.sql
+diff a.sql b.sql
+```
+
+That comparison was run against the v0.1.0 release and matched exactly.

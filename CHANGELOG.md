@@ -6,6 +6,16 @@ that matters more to a consumer than the code version.
 
 ## [Unreleased]
 
+### Changed
+
+- Workflow actions pinned to v7.
+
+### Documented
+
+- `rfalloc.sqlite` is not bit-reproducible across SQLite library versions,
+  because SQLite writes its own version into the file header. The JSON and
+  binary artifacts are. See [SECURITY.md](SECURITY.md).
+
 ## [0.1.0] - 2026-08-21
 
 Built from the FCC Online Table of Frequency Allocations revised 3 April 2026.
